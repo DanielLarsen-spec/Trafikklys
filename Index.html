@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrafficLight</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="lightTimer()">
+
+
+    <div id="Trafikklys">
+        
+        <div id="rød" class="rød sirkel"></div>
+        <div id="orange" class="orange sirkel"></div>
+        <div id="grønn" class="grønn sirkel"></div>
+        
+    </div>
+
+
+    <button onclick="activeLight('grønn', 'orange', 'rød', 'rød')">rød</button>
+    <button onclick="activeLight('grønn', 'grønn', 'rød', 'orange')">rød og orange</button>
+    
+    <button onclick="activeLight('rød', 'orange', 'grønn', 'grønn')">grønn</button>
+    <button onclick="activeLight('rød', 'grønn', 'orange', 'orange')">orange</button>
+
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
